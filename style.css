@@ -1,0 +1,147 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin :0
+}
+
+#header {
+  display: flex;
+  height: 7rem;
+  justify-content: space-around;
+  background-color:#0080ff;
+  text-transform: uppercase;
+position: fixed;
+width: 100%
+}
+@media only screen and (max-width:1020px) {
+  #header{
+    display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+height: 15rem;
+position:relative;
+}
+
+#header-img {
+  width: 2rem;
+}
+
+
+.news{
+  top: -8rem;
+
+
+}
+}
+.news{
+  position: relative;
+  top: 8rem;
+margin-bottom: 2rem;
+display:block;
+z-index: -1
+
+}
+#header-img {
+  width: 10rem;
+  height:auto;
+}
+
+#nav-bar{
+display: flex;
+  width: 40%;
+align-items: center;
+}
+#nav-bar ul{
+  display: flex;
+width: 100%;
+justify-content: space-between;
+
+}
+.logo{
+  width:30%
+}
+.nav-link{
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: black;
+
+}
+
+.news {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+#form{
+  width: 100%;
+  text-align:center;
+}
+#email{
+  width: 30rem;
+  height:2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+#email::placeholder{
+  font-size: 1rem;
+
+}
+#submit{
+  width: 9rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: #0080ff;
+  border:1px solid #0080ff;
+}
+#About-us {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 9rem
+}
+
+#product {
+padding: 1rem;
+font-size: 2rem;
+ text-align: center;
+ background-color:#0080ff;
+}
+#product h2{
+  text-transform: uppercase;
+}
+#product li{
+  list-style: none;
+  padding: 1rem
+}
+#pricing {
+margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+ .price-container {
+ height: 20rem;
+ width: 15rem;
+background-color: #0080ff;
+padding:1rem;
+margin:1rem;
+font-size: 1.4rem;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+text-transform: uppercase;
+}
+
+span{
+  font-weight: bold;
+}
